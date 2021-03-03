@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>work</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header welcom*/
+header {
+    background-color: #456;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other  down and link*/
+nav {
+    float: left;
+    width: 30%;
+    height: 700px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 15px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 700px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2><b>.......welcome to uwacu website......</b></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     <li><b> <a href="index.html">HOME</a></li><br>
+        <a href="about.html">ABOUT US</a><br><br>
+        <a href="my life.html">FIND US</a><br><br>
+        <a href="assignement.html">ASSIGNMENT 2</a></b>
+    </ul>
+  </nav>
+  
+  <article>
+     <form>
+            <center>
+                <p style="background-color: indigo;">
+
+                    <h2>WELCOME TO THE SUBJECTION BOX</h2>
+                    
+                        <legend>personal information</legend>
+                        FIRST NAME:<br>
+                        <input type="text" name="first name" required/><br><br> 
+                      
+                        GENDER:<br>
+                        <label>
+                <input id="MALE" type="radio" name="gender"/>
+                                    MALE</label>
+                               <label>
+                                    <input id="FEMALE" type="radio" name="gender"/>
+                                    FEMALE</label>
+                                    <label>
+                                        <input id="OTHERS" type="radio" name="gender"/>
+                                        OTHERS
+                                    </label><br><br>
+                        DATE OF BIRTH:<br>
+                        <input type="date" name="date" required><br><br>         
+                        E-MAIL:<br>
+                        <input type="email" name="email" required/><br><br>
+                        PHONE NUMBER:<br>
+                        <input type="phone number" name="number" required/><br><br>
+                        COUNTRY:<br>
+                        <input type="text" name="country" required/>
+                
+                    
+                        <legend> your review</legend>
+                        where did you here from us:<br>
+                        <select>
+                            <option value="GOOGLE">GOOGLE</option>
+                            <option value="FRIENDS">FRIENDS</option>
+                            <option value="TELEVISION">TELEVISION</option>
+                            <option value="OTHERS">OTHERS</option>
+                        </select><br><br>
+                        How did you find our page:<br>
+                        <label>
+                            <input type="radio" name="rating" value="EXCELENT"/>
+                            EXCELENT
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="GOOD"/>
+                            GOOD
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="WORSE"/>
+                            WORSE
+                        </label><br><br>
+                        comments:<br><br>
+                        <textarea rows="4" cols="40" id="comments"></textarea>
+                <br>
+                
+                   <button style="background: rgba(7, 148, 71, 0.233);"><b>SUBMIT</b></button>
+
+                </p>
+            </center>
+        </form>
+        
+    </p>
+    </div>
+  </article>
+</section>
+
+<footer>
+  <p><marquu>welcome to our website our email:mukundeuwacumarieorthence@gmail.com</marquu></p>
+</footer>
+
+</body>
+
+</html>

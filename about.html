@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>mypage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header welcom*/
+header {
+    background-color: #456;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other  down and link*/
+nav {
+    float: left;
+    width: 30%;
+    height: 700px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 15px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 700px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>welcome</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+     <li> <a href="index.html">home page</a></li><br>
+        <a href="about.html">about us</a><br><br>
+         <a href="my life.html">find us</a>
+    </ul>
+  </nav>
+  
+  <article>
+     <form>
+           <center>
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+</head>
+<body>
+
+    <h2 style="background-color: yellow;">WELCOME TO uwacu information</h2>
+    <P>
+        this is my university's location<br>
+        <iframe src="http://maps.google.co.uk/maps?q=moma+new+york &amp;output=embed">
+            the university location
+        </iframe> <br>
+        <br>
+        this is my favorite song<br>
+        <audio src="narakwiboneye.aac" controls>
+            his favorite song
+        </audio><br>
+        
+
+    </P>
+                
+               
+        
+    </p>
+    </div>
+  </article>
+</section>
+
+<footer>
+  <p>welcome to our website our email:mukundeuwacumarieorthence@gmail.com</p>
+</footer>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/html/tryit.asp?filename=tryhtml_layout_float by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jul 2018 01:52:34 GMT -->
+</html>
